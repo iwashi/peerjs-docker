@@ -18,7 +18,7 @@ and needs to contain Peer initialization code such as :
 var peer = new Peer({
   host: 'IP address of your docker container', 
   port: 9000, 
-  key: 'pperjs',
+  key: 'peerjs',
   debug: 3
 });
 ```
