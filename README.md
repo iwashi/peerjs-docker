@@ -6,8 +6,8 @@ Build docker image for [PeerJS Server](https://github.com/peers/peerjs-server)
 On the docker host,
 
 ```
-$ docker pull iwashi/peerjs
-$ docker run -it -p 9000:9000 iwashi/peerjs 
+$ sudo docker pull iwashi/peerjs
+$ sudo docker run -d -p 9000:9000 iwashi/peerjs
 ```
 
 ## Usage(PeerJS client)
